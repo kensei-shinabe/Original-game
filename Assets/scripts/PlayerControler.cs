@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerControler : MonoBehaviour
-{
+{ 
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,11 +25,11 @@ public class PlayerControler : MonoBehaviour
         this.transform.Rotate(0, 0, 0);
 
         // Objectを左右に動かす
-        float x = Input.GetAxis("Horizontal");
+        float dx = Input.GetAxis("Horizontal");
 
-        Vector3 v5 = this.transform.position;
-        
-        this.transform.position = v5;
+        transform.position = new Vector3 
+            (transform.position.x + dx, 1f, 3f);
+
 
 
     }

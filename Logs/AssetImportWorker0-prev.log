@@ -22,58 +22,58 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56114
+54188
 Successfully changed project path to: /Users/shinabekensei/Desktop/絢星unity/Original game
 /Users/shinabekensei/Desktop/絢星unity/Original game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 43.58 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 53.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.20f1 (41c4e627c95f)
 [Subsystems] Discovering subsystems at path /Users/shinabekensei/Desktop/絢星unity/2020.3.20f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/shinabekensei/Desktop/絢星unity/Original game/Assets
 GfxDevice: creating device client; threaded=0
-2022-02-02 20:06:46.560 Unity[3386:432770] Color LCD preferred device: Intel(R) Iris(TM) Graphics 6000 (low power)
-2022-02-02 20:06:46.560 Unity[3386:432770] Metal devices available: 1
-2022-02-02 20:06:46.560 Unity[3386:432770] 0: Intel(R) Iris(TM) Graphics 6000 (low power)
-2022-02-02 20:06:46.561 Unity[3386:432770] Using device Intel(R) Iris(TM) Graphics 6000 (low power)
+2022-02-11 10:35:04.609 Unity[2088:133857] Color LCD preferred device: Intel(R) Iris(TM) Graphics 6000 (low power)
+2022-02-11 10:35:04.610 Unity[2088:133857] Metal devices available: 1
+2022-02-11 10:35:04.610 Unity[2088:133857] 0: Intel(R) Iris(TM) Graphics 6000 (low power)
+2022-02-11 10:35:04.612 Unity[2088:133857] Using device Intel(R) Iris(TM) Graphics 6000 (low power)
 Initializing Metal device caps: Intel(R) Iris(TM) Graphics 6000
 Initialize mono
 Mono path[0] = '/Users/shinabekensei/Desktop/絢星unity/2020.3.20f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Users/shinabekensei/Desktop/絢星unity/2020.3.20f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Users/shinabekensei/Desktop/絢星unity/2020.3.20f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56386
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56088
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Users/shinabekensei/Desktop/絢星unity/2020.3.20f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Users/shinabekensei/Desktop/絢星unity/2020.3.20f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.005094 seconds.
+Registered in 0.000988 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 54.40 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 46.80 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.690 seconds
+- Completed reload, in  3.570 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3690ms)
-		BeginReloadAssembly (79ms)
+	ReloadAssembly (3571ms)
+		BeginReloadAssembly (88ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (893ms)
-			LoadAssemblies (83ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (869ms)
+			LoadAssemblies (87ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (366ms)
+			SetupTypeCache (336ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (85ms)
-			SetupLoadedEditorAssemblies (334ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (370ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (54ms)
-				BeforeProcessingInitializeOnLoad (49ms)
-				ProcessInitializeOnLoadAttributes (171ms)
+				RefreshPlugins (47ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (211ms)
 				ProcessInitializeOnLoadMethodAttributes (51ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -81,44 +81,44 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011847 seconds.
+Registered in 0.002190 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.041 seconds
+- Completed reload, in  2.068 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2043ms)
-		BeginReloadAssembly (286ms)
+	ReloadAssembly (2071ms)
+		BeginReloadAssembly (265ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (55ms)
-		EndReloadAssembly (1645ms)
-			LoadAssemblies (189ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (1699ms)
+			LoadAssemblies (173ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (560ms)
+			SetupTypeCache (621ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (103ms)
-			SetupLoadedEditorAssemblies (584ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (629ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (140ms)
-				ProcessInitializeOnLoadAttributes (418ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (138ms)
+				ProcessInitializeOnLoadAttributes (471ms)
 				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.000519 seconds.
+Validating Project structure ... 0.003829 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.000550 seconds.
+Upgrading shader files ...0.004176 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -128,18 +128,18 @@ Application.AssetDatabase.Refresh End
 RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Launching external process: /Users/shinabekensei/Desktop/絢星unity/2020.3.20f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
 Initializing Unity extensions:
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1401 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 163.0 MB.
-System memory in use after: 162.2 MB.
+System memory in use before: 164.0 MB.
+System memory in use after: 163.2 MB.
 
-Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 1875.
-Total: 4.834889 ms (FindLiveObjects: 0.279509 ms CreateObjectMapping: 0.102108 ms MarkObjects: 3.742206 ms  DeleteObjects: 0.709474 ms)
+Unloading 77 unused Assets to reduce memory usage. Loaded Objects now: 1880.
+Total: 9.908841 ms (FindLiveObjects: 0.452531 ms CreateObjectMapping: 0.216042 ms MarkObjects: 8.035575 ms  DeleteObjects: 1.202365 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -153,130 +153,961 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Capsule.mat
-  artifactKey: Guid(85f68e1040c53406a84c05edd34a82cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Capsule.mat using Guid(85f68e1040c53406a84c05edd34a82cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3006c0e4d185cd1b26b58681461d1962') in 2.347705 seconds 
-  Import took 2.351595 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 641.649847 seconds.
   path: Assets/CapsuleColor.mat
   artifactKey: Guid(85f68e1040c53406a84c05edd34a82cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CapsuleColor.mat using Guid(85f68e1040c53406a84c05edd34a82cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b9fe721cdff20baa7e6fdaae3826f9b') in 0.267858 seconds 
-  Import took 0.272618 seconds .
+Start importing Assets/CapsuleColor.mat using Guid(85f68e1040c53406a84c05edd34a82cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abe413d59336424f6a3cbaaca10b0b8c') in 2.445998 seconds 
+  Import took 2.453768 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 141.298284 seconds.
+  Time since last request: 212.628288 seconds.
+  path: Assets/Free Trees
+  artifactKey: Guid(1dda5fe30fd2a42bba9d51692a095c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Trees using Guid(1dda5fe30fd2a42bba9d51692a095c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc6954b6162b30f52d99ba48e097785f') in 0.002579 seconds 
+  Import took 0.015113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.741215 seconds.
+  path: Assets/Free Trees/Free_Trees
+  artifactKey: Guid(b7aee0f11d1aa466daa952466d59cae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Trees/Free_Trees using Guid(b7aee0f11d1aa466daa952466d59cae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b3710d7fcc912709792febf86310cff') in 0.005666 seconds 
+  Import took 0.015500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.892906 seconds.
+  path: Assets/Free Trees/Free_Trees/Prefabs
+  artifactKey: Guid(2365d38fec1724d4199604c670e1f4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Trees/Free_Trees/Prefabs using Guid(2365d38fec1724d4199604c670e1f4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c891b17c57ac8fdf9573a46fe0fc06e8') in 0.002124 seconds 
+  Import took 0.010309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.198394 seconds.
+  path: Assets/Free Trees/Free_Trees/Prefabs/Fir_Tree.prefab
+  artifactKey: Guid(19682540d8a014522a319b1cf788aee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Trees/Free_Trees/Prefabs/Fir_Tree.prefab using Guid(19682540d8a014522a319b1cf788aee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d88de0da81f9bd8463f0feef162478') in 0.613292 seconds 
+  Import took 0.617839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003658 seconds.
+  path: Assets/Free Trees/Free_Trees/Prefabs/Poplar_Tree.prefab
+  artifactKey: Guid(826b6a0b570e8460990010fa615b5a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Trees/Free_Trees/Prefabs/Poplar_Tree.prefab using Guid(826b6a0b570e8460990010fa615b5a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e53a1d526bf72c501ea763f8680afe8') in 0.031379 seconds 
+  Import took 0.040915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000544 seconds.
+  path: Assets/Free Trees/Free_Trees/Prefabs/Oak_Tree.prefab
+  artifactKey: Guid(c44bd9bdc114d4a60932c0087d9d1732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Trees/Free_Trees/Prefabs/Oak_Tree.prefab using Guid(c44bd9bdc114d4a60932c0087d9d1732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96645a4e5739758f100184355f588895') in 0.030172 seconds 
+  Import took 0.037741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000665 seconds.
+  path: Assets/Free Trees/Free_Trees/Prefabs/Palm_Tree.prefab
+  artifactKey: Guid(c6b7fb383a3534b039692b5485b6e739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Trees/Free_Trees/Prefabs/Palm_Tree.prefab using Guid(c6b7fb383a3534b039692b5485b6e739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7537c2c7abc27047b657c7ed1c031ef') in 0.048101 seconds 
+  Import took 0.053927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.308856 seconds.
+  path: Assets/100 Items
+  artifactKey: Guid(ce378ea0b11b44902970a0893b9bfd8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items using Guid(ce378ea0b11b44902970a0893b9bfd8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671a17b293e25870e5a513022e82bc2a') in 0.002334 seconds 
+  Import took 0.010980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.168607 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free
+  artifactKey: Guid(0efedefa9f0aa6c44929ce44701c724c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free using Guid(0efedefa9f0aa6c44929ce44701c724c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e001862283dea6bce6873f39264435cf') in 0.002366 seconds 
+  Import took 0.011040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.121951 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/001_fire.png
+  artifactKey: Guid(8bc6eddd271bcbc4cb29b7e805886aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/001_fire.png using Guid(8bc6eddd271bcbc4cb29b7e805886aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c33ecc7a9b57e03f5391e8f52d186077') in 1.584264 seconds 
+  Import took 1.591396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008285 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/046_cigarette.png
+  artifactKey: Guid(e4386372199d99d42a889ab304fd1467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/046_cigarette.png using Guid(e4386372199d99d42a889ab304fd1467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb540d8bfc10ca9e542b7fee493642c6') in 0.024218 seconds 
+  Import took 0.032649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/054_flower.png
+  artifactKey: Guid(ca532bc308a18b144a9123b6edcfe5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/054_flower.png using Guid(ca532bc308a18b144a9123b6edcfe5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c97a9b0f0f1cf8822fd8d7ac701c7da5') in 0.032507 seconds 
+  Import took 0.038607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/055_honeycomb.png
+  artifactKey: Guid(76a755ae054563843974fde2c746264a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/055_honeycomb.png using Guid(76a755ae054563843974fde2c746264a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c3d448a860c3ee8712cafbd74e8d518') in 0.042473 seconds 
+  Import took 0.050958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/009_cloud.png
+  artifactKey: Guid(b527da2c2066a494fb2a2303a802e7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/009_cloud.png using Guid(b527da2c2066a494fb2a2303a802e7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95dd1b4a0c342f2c8abb8255343be5a4') in 0.041559 seconds 
+  Import took 0.047037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001803 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/008_ozone.png
+  artifactKey: Guid(8128a42e2ad337e44b03f3c7fc6c9540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/008_ozone.png using Guid(8128a42e2ad337e44b03f3c7fc6c9540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3626bfbe44a1d4b138b9b916481bba47') in 0.050884 seconds 
+  Import took 0.057809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/052_garilc.png
+  artifactKey: Guid(136ee8ea5a5a08f4cb8c023990b939f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/052_garilc.png using Guid(136ee8ea5a5a08f4cb8c023990b939f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbea83e57880cfa8f4c4824890269e7d') in 0.029604 seconds 
+  Import took 0.034709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000641 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/005_light.png
+  artifactKey: Guid(a56b9ef5a8cc3844bbc272c680bbaed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/005_light.png using Guid(a56b9ef5a8cc3844bbc272c680bbaed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed42ba6ceaab3da42c1cbb706374a939') in 0.030995 seconds 
+  Import took 0.037238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/030_sand brick.png
+  artifactKey: Guid(66cbeeaa3bcc387448cdae04330e032c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/030_sand brick.png using Guid(66cbeeaa3bcc387448cdae04330e032c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f3f44ab88458cbc9416456143964d2') in 0.023228 seconds 
+  Import took 0.029692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/019_oil.png
+  artifactKey: Guid(a2b4febae57094c40a7709a3c2d99779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/019_oil.png using Guid(a2b4febae57094c40a7709a3c2d99779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a52161a6e3221098de3e887dd38cd6') in 0.032411 seconds 
+  Import took 0.037897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/049_iron.png
+  artifactKey: Guid(51c302f64de43fe4b8b02506b6ed1918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/049_iron.png using Guid(51c302f64de43fe4b8b02506b6ed1918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd2f158467f7ad5cd110cb3ba5bcd35') in 0.045178 seconds 
+  Import took 0.052942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000672 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/023_blood.png
+  artifactKey: Guid(830168f764471444d8a47b35247f811c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/023_blood.png using Guid(830168f764471444d8a47b35247f811c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3441612cfa9bdbef6c89b75af8f0b552') in 0.062812 seconds 
+  Import took 0.068540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001151 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/039_charcoal.png
+  artifactKey: Guid(b1ae28f3400e10c4a9b1d06b6b474039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/039_charcoal.png using Guid(b1ae28f3400e10c4a9b1d06b6b474039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd323ec4bc5084fa0060aec86ae1be81f') in 0.025842 seconds 
+  Import took 0.035192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/007_hydrogen.png
+  artifactKey: Guid(07cbc85522bad3e4c8191650d309c93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/007_hydrogen.png using Guid(07cbc85522bad3e4c8191650d309c93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917fb1bd4f3bd0ebad9584f6f49e4379') in 0.063484 seconds 
+  Import took 0.070327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000798 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/002_water.png
+  artifactKey: Guid(905aefa8652570842be8659ac40217a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/002_water.png using Guid(905aefa8652570842be8659ac40217a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '705516e9eca73771ad58695f0747c7c0') in 0.030353 seconds 
+  Import took 0.040471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000717 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/013_Butane gas.png
+  artifactKey: Guid(511a5dd4adef00a42b644f23da49e63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/013_Butane gas.png using Guid(511a5dd4adef00a42b644f23da49e63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4568c7e18c69ce053af40d9dc60a98c') in 0.035615 seconds 
+  Import took 0.042916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001755 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/029_bomb.png
+  artifactKey: Guid(b91a073834d4ca048ac15d6951f411aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/029_bomb.png using Guid(b91a073834d4ca048ac15d6951f411aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2e6637c8c15764cfd5290470b1ebea') in 0.051495 seconds 
+  Import took 0.063404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041830 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/017_alcohol.png
+  artifactKey: Guid(e43a9b0830addfd499c3cec59e53dca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/017_alcohol.png using Guid(e43a9b0830addfd499c3cec59e53dca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f45f5941901be2dc2bd1eae836b7997') in 0.024610 seconds 
+  Import took 0.031239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000882 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/034_diamond.png
+  artifactKey: Guid(8727e7dc0cc99c245922ec614e2e826d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/034_diamond.png using Guid(8727e7dc0cc99c245922ec614e2e826d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6006f865538b31c6ae1f5059dc4f89d6') in 0.044410 seconds 
+  Import took 0.050745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/022_ash.png
+  artifactKey: Guid(bb129ece4f76ab2468eab02f5b435d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/022_ash.png using Guid(bb129ece4f76ab2468eab02f5b435d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63482dbfff19201d8fa3d621ca0d75ef') in 0.039288 seconds 
+  Import took 0.046066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000570 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/024_sulfur.png
+  artifactKey: Guid(bb5e42897acacad42b733e7575c69ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/024_sulfur.png using Guid(bb5e42897acacad42b733e7575c69ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a4e7155448b256c7e1b62646b65de4') in 0.025197 seconds 
+  Import took 0.031382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/028_torch.png
+  artifactKey: Guid(26de841f6d53c6a4da359d956be2c4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/028_torch.png using Guid(26de841f6d53c6a4da359d956be2c4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa7f9fbcbb49c53fdce48c21666556e1') in 0.072392 seconds 
+  Import took 0.079001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/033_topaz.png
+  artifactKey: Guid(5da0883e4d71a6c47adeac1d531b96a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/033_topaz.png using Guid(5da0883e4d71a6c47adeac1d531b96a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aabbb1af5da52c107fd557b61e4ba29d') in 0.035040 seconds 
+  Import took 0.041053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/011_carbon dioxide.png
+  artifactKey: Guid(f5300ba0e99563148877a5ce96e560f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/011_carbon dioxide.png using Guid(f5300ba0e99563148877a5ce96e560f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d94b5b45f321d7ce9624f49be976e1c') in 0.029277 seconds 
+  Import took 0.037307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001080 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/020_milk.png
+  artifactKey: Guid(4d6a5a6cf4d7100478dbdbe6ab202625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/020_milk.png using Guid(4d6a5a6cf4d7100478dbdbe6ab202625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a1e2d4defdb7a0c138b9ff47559f1b') in 0.034033 seconds 
+  Import took 0.040245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000858 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/038_sugar.png
+  artifactKey: Guid(ec8cf84f8255ca54497112747054509d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/038_sugar.png using Guid(ec8cf84f8255ca54497112747054509d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d853842422f702a50d16e1ff7bbbc52') in 0.041021 seconds 
+  Import took 0.049060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/012_lpg.png
+  artifactKey: Guid(0032519810930c94598ca9e2a3298215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/012_lpg.png using Guid(0032519810930c94598ca9e2a3298215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e4890d8d4f486cc0bb37f365c9e7ba1') in 0.039786 seconds 
+  Import took 0.045423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/031_clay brick.png
+  artifactKey: Guid(966263a09293ab040b421553cbab8bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/031_clay brick.png using Guid(966263a09293ab040b421553cbab8bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9131a4cb23dcd0e6f00c670400c320fc') in 0.030220 seconds 
+  Import took 0.039320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000508 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/015_helium.png
+  artifactKey: Guid(921c38baadb639344bd161f6cc71db2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/015_helium.png using Guid(921c38baadb639344bd161f6cc71db2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97512141fe0d938d2aff7419f48cbf6b') in 0.036447 seconds 
+  Import took 0.043828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000587 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/043_ice.png
+  artifactKey: Guid(9a8ad968e4be589449263151b9b6739e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/043_ice.png using Guid(9a8ad968e4be589449263151b9b6739e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8012672c256d64d9e5959244717732f4') in 0.042738 seconds 
+  Import took 0.052088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001528 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/010_dust.png
+  artifactKey: Guid(b4872dcff3a17a240a530f8c43714669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/010_dust.png using Guid(b4872dcff3a17a240a530f8c43714669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f58982322cbb9dcf342b4a46a84eb05b') in 0.029634 seconds 
+  Import took 0.036305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/042_concrete.png
+  artifactKey: Guid(187ed0ddef46b1d48be502bdc6dc7c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/042_concrete.png using Guid(187ed0ddef46b1d48be502bdc6dc7c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd971128cea356d645a1f2d209f643dbe') in 0.035755 seconds 
+  Import took 0.042836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000858 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/006_electricity.png
+  artifactKey: Guid(8c5b79707e8ddf9449a3f42ede0a06f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/006_electricity.png using Guid(8c5b79707e8ddf9449a3f42ede0a06f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '723326c7d6dec1407bc9496f89ce2fcd') in 0.038369 seconds 
+  Import took 0.045714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000626 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/027_feather.png
+  artifactKey: Guid(76144d95743d64f40af1f8e6bb40a0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/027_feather.png using Guid(76144d95743d64f40af1f8e6bb40a0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b782c243093380dd14c114dd6b5b3baf') in 0.028804 seconds 
+  Import took 0.038351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000641 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/040_rope.png
+  artifactKey: Guid(ffee00b407527d74cbf43c311ab0b445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/040_rope.png using Guid(ffee00b407527d74cbf43c311ab0b445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0211664f8b0be7d4a4a0f8bcd7dd9219') in 0.043324 seconds 
+  Import took 0.050823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/016_wind.png
+  artifactKey: Guid(39d08c6fe3f2f8e4d9e3eff5f27d4fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/016_wind.png using Guid(39d08c6fe3f2f8e4d9e3eff5f27d4fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6b0d4eb3205c9e7a9fc9b4e33c5582') in 0.037714 seconds 
+  Import took 0.043464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001343 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/026_glass.png
+  artifactKey: Guid(fea24183072532a419f27d6b302d3f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/026_glass.png using Guid(fea24183072532a419f27d6b302d3f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '756836778f79cb611c55d63966e1320e') in 0.039083 seconds 
+  Import took 0.048911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001172 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/048_silver.png
+  artifactKey: Guid(a537371920d03594c97419aabe22e0aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/048_silver.png using Guid(a537371920d03594c97419aabe22e0aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc6b100154e59d05344b095dee31bdd') in 0.026438 seconds 
+  Import took 0.035456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000526 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/004_tree.png
+  artifactKey: Guid(c11fa297dd331de418654209c490f7e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/004_tree.png using Guid(c11fa297dd331de418654209c490f7e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f79ef0c9f31c3618e333fd0f6c3536') in 0.041636 seconds 
+  Import took 0.047511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000487 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/044_caramel.png
+  artifactKey: Guid(88f0b9bb88f3eb8489dec8c0cac3d11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/044_caramel.png using Guid(88f0b9bb88f3eb8489dec8c0cac3d11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a0693ac9e769baa44365c52d2cf569e') in 0.029589 seconds 
+  Import took 0.037425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/041_coal.png
+  artifactKey: Guid(2774e5bbe63be204988f1c5f7f2ae979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/041_coal.png using Guid(2774e5bbe63be204988f1c5f7f2ae979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '800b68f0e412188349afb6373e162a87') in 0.046377 seconds 
+  Import took 0.051569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000520 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/032_ruby.png
+  artifactKey: Guid(af5bfcb23171b4f46ab2ad13250a1062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/032_ruby.png using Guid(af5bfcb23171b4f46ab2ad13250a1062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3964fcbfa1a985c05bb4162ae80514e') in 0.030592 seconds 
+  Import took 0.035591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002499 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/037_mud.png
+  artifactKey: Guid(e0bac1a6e442285499d5717095d7290c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/037_mud.png using Guid(e0bac1a6e442285499d5717095d7290c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d367f5b903d953e772de549c373989c') in 0.029035 seconds 
+  Import took 0.034977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001100 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/050_lead.png
+  artifactKey: Guid(e04c60d59c469134bab3245c563a207c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/050_lead.png using Guid(e04c60d59c469134bab3245c563a207c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3dce11a615f69e62df83c43d37b08a3') in 0.044449 seconds 
+  Import took 0.052672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001615 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/003_air.png
+  artifactKey: Guid(59f5c53cc87350b4eb8f9250daefe601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/003_air.png using Guid(59f5c53cc87350b4eb8f9250daefe601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a1c16b9adc53bf45caeedb391972ab9') in 0.027046 seconds 
+  Import took 0.034475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000644 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/014_water vapour.png
+  artifactKey: Guid(cad492dc6f9a766438b99f4f3897028d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/014_water vapour.png using Guid(cad492dc6f9a766438b99f4f3897028d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2fb5f9364be748042df77cb02607733') in 0.036725 seconds 
+  Import took 0.043543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000561 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/018_virus.png
+  artifactKey: Guid(d52306de7206bd34ea489197b237f4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/018_virus.png using Guid(d52306de7206bd34ea489197b237f4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a5c6976279afd337fb94b09252a60a') in 0.030727 seconds 
+  Import took 0.036227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/021_book.png
+  artifactKey: Guid(b97c352a0d60abf4489782e30580c0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/021_book.png using Guid(b97c352a0d60abf4489782e30580c0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a81a3cca5c3c51f66bec82f99e8cf59a') in 0.040581 seconds 
+  Import took 0.047682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000516 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/045_gunpowder.png
+  artifactKey: Guid(ae835b14f89ed9747a705fee6d28538c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/045_gunpowder.png using Guid(ae835b14f89ed9747a705fee6d28538c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd42d516e21b59033d86c38bef63e6295') in 0.031579 seconds 
+  Import took 0.037769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000543 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/053_ginseng.png
+  artifactKey: Guid(f796666080e36b24182db720be6e5e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/053_ginseng.png using Guid(f796666080e36b24182db720be6e5e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd625d749a3dc7367f4d70660faf73376') in 0.026153 seconds 
+  Import took 0.036801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002142 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/036_sand.png
+  artifactKey: Guid(a3f4461a49e22334fbdf22204209f51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/036_sand.png using Guid(a3f4461a49e22334fbdf22204209f51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eac7d050eff4359fa038500f1062d6c') in 0.044924 seconds 
+  Import took 0.056680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000547 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/035_waste paper.png
+  artifactKey: Guid(5ae2ec07527485245824c4e5de09ecca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/035_waste paper.png using Guid(5ae2ec07527485245824c4e5de09ecca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d02d22874b928cf1275b3459f6d0667') in 0.028035 seconds 
+  Import took 0.034929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000478 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/047_gold.png
+  artifactKey: Guid(8042daf4c7190bf49ba25891ddabb962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/047_gold.png using Guid(8042daf4c7190bf49ba25891ddabb962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff422d03abbf3dae5af73626f341701a') in 0.030707 seconds 
+  Import took 0.036141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002231 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/051_powdered bones.png
+  artifactKey: Guid(08c09715fa0a5a5459d08c73c0435261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/051_powdered bones.png using Guid(08c09715fa0a5a5459d08c73c0435261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad23eb420fb4f13cabb03fb8f3037c6d') in 0.032777 seconds 
+  Import took 0.039124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000557 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/025_poison.png
+  artifactKey: Guid(b8428167e3680bd48832aa8c94bcae6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/025_poison.png using Guid(b8428167e3680bd48832aa8c94bcae6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd47b216afc229a5db932b96ed0d360ac') in 0.046031 seconds 
+  Import took 0.051574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.429964 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/056_lavender.png
+  artifactKey: Guid(e0a49f84af22d4a459d2c9755de6d9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/056_lavender.png using Guid(e0a49f84af22d4a459d2c9755de6d9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037d83e5cfa4027b3ab670f490a6fd48') in 0.021401 seconds 
+  Import took 0.028078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000493 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/062_energy.png
+  artifactKey: Guid(eecd1e1d4e5dc3f4a975c18de888982a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/062_energy.png using Guid(eecd1e1d4e5dc3f4a975c18de888982a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6830016ef5fa795509884936fc5eda') in 0.028364 seconds 
+  Import took 0.032047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/063_time.png
+  artifactKey: Guid(825eb3b41d8de03408f109667a88715a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/063_time.png using Guid(825eb3b41d8de03408f109667a88715a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4983359a0b91fcb2155b0e0a667c2631') in 0.027514 seconds 
+  Import took 0.032225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/058_obsidian.png
+  artifactKey: Guid(509bfad95deac1e42a65bf1b2345e728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/058_obsidian.png using Guid(509bfad95deac1e42a65bf1b2345e728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c942126bc173df69f387722b9134035e') in 0.044264 seconds 
+  Import took 0.053071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/061_beer.png
+  artifactKey: Guid(fe9be467643906042b1db16df2a44148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/061_beer.png using Guid(fe9be467643906042b1db16df2a44148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c4bbc7bf810cdf84fd5a995d1336bd8') in 0.028346 seconds 
+  Import took 0.034252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000457 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/069_film of gossamer.png
+  artifactKey: Guid(312991b311b8ccc49adec5703787cb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/069_film of gossamer.png using Guid(312991b311b8ccc49adec5703787cb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '308181927d18f08c3aa160d8a7e28f49') in 0.030109 seconds 
+  Import took 0.035466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/070_glowing powder.png
+  artifactKey: Guid(5b58351cb891f7b41b9970b7afa5ee68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/070_glowing powder.png using Guid(5b58351cb891f7b41b9970b7afa5ee68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b9b247ce8e6f7ebebd03c2126a85224') in 0.026400 seconds 
+  Import took 0.031260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000568 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/072_coin.png
+  artifactKey: Guid(93811637c77a71e4997586d3cdea4e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/072_coin.png using Guid(93811637c77a71e4997586d3cdea4e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8de3db7e5ca43ea322f8f42de440033') in 0.020955 seconds 
+  Import took 0.026546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000688 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/067_magic powder.png
+  artifactKey: Guid(bae056595097aff4a983d33d5e15d4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/067_magic powder.png using Guid(bae056595097aff4a983d33d5e15d4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '764930907e38856e37a2201f08935890') in 0.029605 seconds 
+  Import took 0.033457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/071_ball.png
+  artifactKey: Guid(9392f93915a0c67489f7288cf69dd701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/071_ball.png using Guid(9392f93915a0c67489f7288cf69dd701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3471c68e25fd3abb21edfbe03ef9d02') in 0.021133 seconds 
+  Import took 0.030053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000603 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/059_soul.png
+  artifactKey: Guid(7494ba15848983f46b96fc61c28d5674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/059_soul.png using Guid(7494ba15848983f46b96fc61c28d5674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db94f97fbcf83f15350efd83fbd6ed04') in 0.027649 seconds 
+  Import took 0.033648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/068_laser.png
+  artifactKey: Guid(d1185d3af10a820458dba8fc55d0fa5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/068_laser.png using Guid(d1185d3af10a820458dba8fc55d0fa5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2536645a3c07ae29358006333545822c') in 0.028699 seconds 
+  Import took 0.033013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000447 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/064_concentration potion.png
+  artifactKey: Guid(feeef5fc46986014c841f7aa2b9a1b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/064_concentration potion.png using Guid(feeef5fc46986014c841f7aa2b9a1b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f369ae482dbc100b6f8a1e318132d642') in 0.026230 seconds 
+  Import took 0.033289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/078_emerald.png
+  artifactKey: Guid(97d86a1e589756a41a7320ebe81b0c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/078_emerald.png using Guid(97d86a1e589756a41a7320ebe81b0c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e7558665a00f814a04b9050776194e9') in 0.029008 seconds 
+  Import took 0.035184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000514 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/082_sparkling water.png
+  artifactKey: Guid(1aeaebe2ff34a064093cfd36c9b31a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/082_sparkling water.png using Guid(1aeaebe2ff34a064093cfd36c9b31a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2edb1fb3fac8bd7284aeeb29f9210d92') in 0.041567 seconds 
+  Import took 0.046644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000559 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/074_aluminium.png
+  artifactKey: Guid(92151b1b187c65a4b98198069bedb1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/074_aluminium.png using Guid(92151b1b187c65a4b98198069bedb1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '474775335ef6051ae06c6f53be2579f6') in 0.026767 seconds 
+  Import took 0.033510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/079_amethyst.png
+  artifactKey: Guid(c05768ff84d08ea45a257e8dd1ddc2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/079_amethyst.png using Guid(c05768ff84d08ea45a257e8dd1ddc2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b03be6b2dde3c5b16b71243040b70f05') in 0.026325 seconds 
+  Import took 0.035231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/080_cells.png
+  artifactKey: Guid(338cc04877ed9b642abc819503c5f721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/080_cells.png using Guid(338cc04877ed9b642abc819503c5f721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '681f3fcc2392504e59a65dc469561a1b') in 0.036941 seconds 
+  Import took 0.041429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000961 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/077_sapphire.png
+  artifactKey: Guid(49dfce2cc8c396e4497d13f48986d99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/077_sapphire.png using Guid(49dfce2cc8c396e4497d13f48986d99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0578af55b98d00576b7b546c9a442566') in 0.024980 seconds 
+  Import took 0.032805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001335 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/076_zinc.png
+  artifactKey: Guid(8fc8d4c91aada9741ac406056815c903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/076_zinc.png using Guid(8fc8d4c91aada9741ac406056815c903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ccf324fe768b8ae4141c4bdcc9c50b') in 0.024635 seconds 
+  Import took 0.030685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/075_copper.png
+  artifactKey: Guid(a3643d7022c5d3a4386c8809b963a0b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/075_copper.png using Guid(a3643d7022c5d3a4386c8809b963a0b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20991122312091a9203ae2eba3e23fb3') in 0.022641 seconds 
+  Import took 0.031916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000512 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/066_power potion.png
+  artifactKey: Guid(c82e63eab3f66104b9d141d218e78e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/066_power potion.png using Guid(c82e63eab3f66104b9d141d218e78e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d405aab3cdabf64c747780d0f7f0139') in 0.025807 seconds 
+  Import took 0.030752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/065_healing potion.png
+  artifactKey: Guid(bbe4f04da39757b43b86e63a47657063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/065_healing potion.png using Guid(bbe4f04da39757b43b86e63a47657063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff35fd8a04cc49c83c6801e95917013d') in 0.033672 seconds 
+  Import took 0.039721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/060_life.png
+  artifactKey: Guid(e8327ed7ecf84e34e8d5bb8a37d72618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/060_life.png using Guid(e8327ed7ecf84e34e8d5bb8a37d72618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c96386d5613bea257333d057b81303e') in 0.028733 seconds 
+  Import took 0.034824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/081_darkness.png
+  artifactKey: Guid(7727d08cc96a0634f870fb482417b37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/081_darkness.png using Guid(7727d08cc96a0634f870fb482417b37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2772c3f62338360c07d450512fbe6dec') in 0.044957 seconds 
+  Import took 0.052086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/057_pearl.png
+  artifactKey: Guid(9b23d1fb6091a9842b79b29df215fd9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/057_pearl.png using Guid(9b23d1fb6091a9842b79b29df215fd9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81556abe30f297225f3cd7c65738d4c5') in 0.037207 seconds 
+  Import took 0.043639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/073_black pearl.png
+  artifactKey: Guid(fdefdd160c56340449003232fcc1314b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/073_black pearl.png using Guid(fdefdd160c56340449003232fcc1314b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7168e2ea5ec1b2b3068bf343e7a44037') in 0.051946 seconds 
+  Import took 0.055864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.845195 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/083_egg.png
+  artifactKey: Guid(ab8037f223a5e444da2c31e889f2ce23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/083_egg.png using Guid(ab8037f223a5e444da2c31e889f2ce23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f1d8f0ffb633329598af425509a0661') in 0.017921 seconds 
+  Import took 0.024350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/086_cheese.png
+  artifactKey: Guid(89a4ce80a98242b42a126844f8333a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/086_cheese.png using Guid(89a4ce80a98242b42a126844f8333a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7461fb2ba74c692bc98383c925f969cd') in 0.023952 seconds 
+  Import took 0.028812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/088_mushroom.png
+  artifactKey: Guid(421750e670078b94eaaf7932f9c6fc1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/088_mushroom.png using Guid(421750e670078b94eaaf7932f9c6fc1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34f3e6dc604dd18f435b4ec02e8bbc54') in 0.042733 seconds 
+  Import took 0.048385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/085_butter.png
+  artifactKey: Guid(8732f00bfd0ef134f9bd9e437628ba39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/085_butter.png using Guid(8732f00bfd0ef134f9bd9e437628ba39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52cdb72183386d0153e4351e55c5b1ae') in 0.031205 seconds 
+  Import took 0.038090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/087_salt.png
+  artifactKey: Guid(79701843a1fcb394ba32ed84e26ca01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/087_salt.png using Guid(79701843a1fcb394ba32ed84e26ca01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5984035e306b5a94493e223178b7b2fa') in 0.050226 seconds 
+  Import took 0.056568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/089_three leaf clover.png
+  artifactKey: Guid(0c99c08fb2785eb4da2a6de83d8a7e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/089_three leaf clover.png using Guid(0c99c08fb2785eb4da2a6de83d8a7e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa4802885177cce625943889f0cb4cfb') in 0.037573 seconds 
+  Import took 0.042963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/090_four leaf clover.png
+  artifactKey: Guid(ef9b144f4b7d611489541bd5174e37ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/090_four leaf clover.png using Guid(ef9b144f4b7d611489541bd5174e37ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4503ba15a3d1d9162a026818177a2913') in 0.047527 seconds 
+  Import took 0.053141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/084_soap.png
+  artifactKey: Guid(93c4342162a08fb42ba1d71cc974c8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/084_soap.png using Guid(93c4342162a08fb42ba1d71cc974c8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802b4607c4f3bf74e1ce7ae31748393c') in 0.050761 seconds 
+  Import took 0.056275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/091_roots.png
+  artifactKey: Guid(2da13ce79e641fd469529b50b281f16e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/091_roots.png using Guid(2da13ce79e641fd469529b50b281f16e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c530440f47900349eef5d8824767c35b') in 0.053078 seconds 
+  Import took 0.059355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.283321 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/092_stone.png
+  artifactKey: Guid(14a2710916f32c9479082b1bc6a5cb5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/092_stone.png using Guid(14a2710916f32c9479082b1bc6a5cb5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e2e79aa30a093037402bf8c5baf63c6') in 0.021739 seconds 
+  Import took 0.027155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000595 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/097_battery.png
+  artifactKey: Guid(303a9cecb0a7d1a4e9e1cb436ed64137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/097_battery.png using Guid(303a9cecb0a7d1a4e9e1cb436ed64137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2994f70ac4dc35fbdff3173c0f5b9500') in 0.023437 seconds 
+  Import took 0.028606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/096_pill.png
+  artifactKey: Guid(4203607ed771af04d8deed1367a85de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/096_pill.png using Guid(4203607ed771af04d8deed1367a85de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96db105df4f26d153646b95b19647fc3') in 0.037275 seconds 
+  Import took 0.043735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000677 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/100_icecream.png
+  artifactKey: Guid(ad1e51affbfb23c45b474aca370a3551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/100_icecream.png using Guid(ad1e51affbfb23c45b474aca370a3551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '570c05c9f772251d68b2263a983326ac') in 0.022383 seconds 
+  Import took 0.033129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/099_apple.png
+  artifactKey: Guid(b6c7d27f0d59fc044b552da7076847a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/099_apple.png using Guid(b6c7d27f0d59fc044b552da7076847a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd96aa8bfed796eea205a0050ca41680b') in 0.042092 seconds 
+  Import took 0.052655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/094_seed.png
+  artifactKey: Guid(e4c3aa7b966f34f49bcac030376d2ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/094_seed.png using Guid(e4c3aa7b966f34f49bcac030376d2ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04367e63ddbbe1d0a9901d3a5575aa6a') in 0.020729 seconds 
+  Import took 0.026361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001228 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/098_soda.png
+  artifactKey: Guid(0aa5015c85da2404aa4d922b0ac985c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/098_soda.png using Guid(0aa5015c85da2404aa4d922b0ac985c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '580675fa876f75a032156780da7644a5') in 0.026786 seconds 
+  Import took 0.033404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001053 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/093_love.png
+  artifactKey: Guid(684682633a0ae15498d0f8c9747b7a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/093_love.png using Guid(684682633a0ae15498d0f8c9747b7a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9177ccbf249a46b43c2c971ba226e09') in 0.043709 seconds 
+  Import took 0.049954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000468 seconds.
+  path: Assets/100 Items/100 Alchemy item icons-free/095_plasma.png
+  artifactKey: Guid(deed3cee4e3becb45b20773ad25b04c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/100 Items/100 Alchemy item icons-free/095_plasma.png using Guid(deed3cee4e3becb45b20773ad25b04c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '782b45a2f82f316b76e737b2b0fe6159') in 0.035677 seconds 
+  Import took 0.040814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5774.260362 seconds.
+  path: Assets/New Material.mat
+  artifactKey: Guid(3c00f7f9825314e8b8c4bdee72ddf786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material.mat using Guid(3c00f7f9825314e8b8c4bdee72ddf786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a55d26f309e201726d502a8df945ad7') in 0.039402 seconds 
+  Import took 0.048157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.634278 seconds.
+  path: Assets/Coin Color.mat
+  artifactKey: Guid(3c00f7f9825314e8b8c4bdee72ddf786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Coin Color.mat using Guid(3c00f7f9825314e8b8c4bdee72ddf786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '625352e176e0cf94aadb67ab7c704062') in 0.023346 seconds 
+  Import took 0.027341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 168.301341 seconds.
   path: Assets/scripts/PlayerControler.cs
   artifactKey: Guid(fe526f6b03aca4a5e8fca99270c97ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/scripts/PlayerControler.cs using Guid(fe526f6b03aca4a5e8fca99270c97ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96461d7b2aab8933abf9843a0974ed0f') in 5.997523 seconds 
-  Import took 6.001715 seconds .
+Start importing Assets/scripts/PlayerControler.cs using Guid(fe526f6b03aca4a5e8fca99270c97ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e383cb869d7c74eb84aeea11c446c6b') in 5.978874 seconds 
+  Import took 5.983143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.740087 seconds.
+  path: Assets/scripts/PlayerControler.cs
+  artifactKey: Guid(fe526f6b03aca4a5e8fca99270c97ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/PlayerControler.cs using Guid(fe526f6b03aca4a5e8fca99270c97ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd3088af42f38fb3e69ee5782dd576c') in 0.016001 seconds 
+  Import took 0.023257 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005852 seconds.
+Registered in 0.005001 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.455 seconds
+- Completed reload, in  2.363 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2456ms)
-		BeginReloadAssembly (388ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (20ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (202ms)
-		EndReloadAssembly (1891ms)
-			LoadAssemblies (260ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (773ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (114ms)
-			SetupLoadedEditorAssemblies (596ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (168ms)
-				ProcessInitializeOnLoadAttributes (409ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 170.7 MB.
-System memory in use after: 170.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1917.
-Total: 4.940428 ms (FindLiveObjects: 0.386723 ms CreateObjectMapping: 0.070835 ms MarkObjects: 4.430928 ms  DeleteObjects: 0.048601 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004812 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.888 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1888ms)
-		BeginReloadAssembly (191ms)
+	ReloadAssembly (2364ms)
+		BeginReloadAssembly (310ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (87ms)
-		EndReloadAssembly (1579ms)
-			LoadAssemblies (130ms)
+			CreateAndSetChildDomain (150ms)
+		EndReloadAssembly (1861ms)
+			LoadAssemblies (199ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (645ms)
+			SetupTypeCache (642ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (75ms)
-			SetupLoadedEditorAssemblies (530ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (687ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (162ms)
-				ProcessInitializeOnLoadAttributes (348ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (224ms)
+				ProcessInitializeOnLoadAttributes (441ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 170.9 MB.
-System memory in use after: 171.0 MB.
+System memory in use before: 180.1 MB.
+System memory in use after: 180.2 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1919.
-Total: 3.624401 ms (FindLiveObjects: 0.185254 ms CreateObjectMapping: 0.052064 ms MarkObjects: 3.365182 ms  DeleteObjects: 0.020680 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1924.
+Total: 5.664910 ms (FindLiveObjects: 0.223594 ms CreateObjectMapping: 0.055520 ms MarkObjects: 5.337326 ms  DeleteObjects: 0.046546 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -291,49 +1122,106 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004481 seconds.
+Registered in 0.005781 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.104 seconds
+- Completed reload, in  2.227 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2105ms)
-		BeginReloadAssembly (286ms)
+	ReloadAssembly (2228ms)
+		BeginReloadAssembly (244ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (147ms)
-		EndReloadAssembly (1673ms)
-			LoadAssemblies (167ms)
+			CreateAndSetChildDomain (112ms)
+		EndReloadAssembly (1841ms)
+			LoadAssemblies (227ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (664ms)
+			SetupTypeCache (614ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (91ms)
-			SetupLoadedEditorAssemblies (569ms)
+			RebuildScriptCaches (135ms)
+			SetupLoadedEditorAssemblies (644ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (187ms)
+				ProcessInitializeOnLoadAttributes (429ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 180.2 MB.
+System memory in use after: 180.3 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1926.
+Total: 3.669060 ms (FindLiveObjects: 0.216672 ms CreateObjectMapping: 0.054845 ms MarkObjects: 3.374679 ms  DeleteObjects: 0.021760 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001915 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.798 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2799ms)
+		BeginReloadAssembly (342ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (171ms)
+		EndReloadAssembly (2238ms)
+			LoadAssemblies (207ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1083ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (143ms)
+			SetupLoadedEditorAssemblies (555ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (180ms)
-				ProcessInitializeOnLoadAttributes (369ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (182ms)
+				ProcessInitializeOnLoadAttributes (354ms)
 				ProcessInitializeOnLoadMethodAttributes (6ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (14ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 171.1 MB.
-System memory in use after: 171.2 MB.
+System memory in use before: 180.4 MB.
+System memory in use after: 180.5 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1921.
-Total: 4.117384 ms (FindLiveObjects: 0.193655 ms CreateObjectMapping: 0.052950 ms MarkObjects: 3.846221 ms  DeleteObjects: 0.023363 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1928.
+Total: 6.398919 ms (FindLiveObjects: 0.526337 ms CreateObjectMapping: 0.294707 ms MarkObjects: 5.538399 ms  DeleteObjects: 0.037477 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -348,49 +1236,220 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001810 seconds.
+Registered in 0.005152 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.993 seconds
+- Completed reload, in  1.848 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1994ms)
-		BeginReloadAssembly (260ms)
+	ReloadAssembly (1848ms)
+		BeginReloadAssembly (204ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (107ms)
-		EndReloadAssembly (1620ms)
-			LoadAssemblies (176ms)
+			CreateAndSetChildDomain (94ms)
+		EndReloadAssembly (1517ms)
+			LoadAssemblies (150ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (590ms)
+			SetupTypeCache (545ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (86ms)
-			SetupLoadedEditorAssemblies (631ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (549ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (175ms)
+				ProcessInitializeOnLoadAttributes (356ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 180.6 MB.
+System memory in use after: 180.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1930.
+Total: 3.688486 ms (FindLiveObjects: 0.193691 ms CreateObjectMapping: 0.052588 ms MarkObjects: 3.418792 ms  DeleteObjects: 0.022096 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007840 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.014 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2015ms)
+		BeginReloadAssembly (222ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (106ms)
+		EndReloadAssembly (1668ms)
+			LoadAssemblies (197ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (600ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (587ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (3ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (201ms)
-				ProcessInitializeOnLoadAttributes (407ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (197ms)
+				ProcessInitializeOnLoadAttributes (369ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 180.8 MB.
+System memory in use after: 180.9 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1932.
+Total: 3.846534 ms (FindLiveObjects: 0.198195 ms CreateObjectMapping: 0.050358 ms MarkObjects: 3.572988 ms  DeleteObjects: 0.023743 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011463 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.574 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2575ms)
+		BeginReloadAssembly (267ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (140ms)
+		EndReloadAssembly (2170ms)
+			LoadAssemblies (214ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (770ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (142ms)
+			SetupLoadedEditorAssemblies (754ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (228ms)
+				ProcessInitializeOnLoadAttributes (503ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 181.1 MB.
+System memory in use after: 181.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1934.
+Total: 4.283220 ms (FindLiveObjects: 0.217076 ms CreateObjectMapping: 0.051674 ms MarkObjects: 3.989361 ms  DeleteObjects: 0.023841 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009877 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.868 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1869ms)
+		BeginReloadAssembly (210ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (106ms)
+		EndReloadAssembly (1544ms)
+			LoadAssemblies (196ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (522ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (540ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (171ms)
+				ProcessInitializeOnLoadAttributes (349ms)
 				ProcessInitializeOnLoadMethodAttributes (6ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 171.3 MB.
-System memory in use after: 171.4 MB.
+System memory in use before: 181.3 MB.
+System memory in use after: 181.4 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1923.
-Total: 3.977417 ms (FindLiveObjects: 0.301053 ms CreateObjectMapping: 0.054746 ms MarkObjects: 3.596721 ms  DeleteObjects: 0.022719 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1936.
+Total: 3.880563 ms (FindLiveObjects: 0.193115 ms CreateObjectMapping: 0.051763 ms MarkObjects: 3.610212 ms  DeleteObjects: 0.024275 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -402,61 +1461,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006038 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.300 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2301ms)
-		BeginReloadAssembly (212ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (101ms)
-		EndReloadAssembly (1850ms)
-			LoadAssemblies (184ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (734ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (94ms)
-			SetupLoadedEditorAssemblies (622ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (231ms)
-				ProcessInitializeOnLoadAttributes (369ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 171.5 MB.
-System memory in use after: 171.6 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1925.
-Total: 4.156153 ms (FindLiveObjects: 0.281821 ms CreateObjectMapping: 0.109365 ms MarkObjects: 3.736558 ms  DeleteObjects: 0.025611 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class PlayerControler : MonoBehaviour
 { 
+    [SerializeField]
+    private float speed = 1;
+
 
 
     // Start is called before the first frame update
@@ -15,22 +18,16 @@ public class PlayerControler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // playerを前に進ませる
-        this.transform.Translate(this.transform.forward * Time.deltaTime);
+        Vector3 direction = this.transform.forward;
 
-
-
-
-
-        this.transform.Rotate(0, 0, 0);
-
-        // Objectを左右に動かす
+        //入力を受け付ける
+        //Objectを左右に動かす
         float dx = Input.GetAxis("Horizontal");
 
-        transform.position = new Vector3 
-            (transform.position.x + dx, 1f, 3f);
+        direction += this.transform.right * dx * speed;
 
-
+        //playerを前に進ませる　さらに左右方向の入力に対応した移動を行う
+        this.transform.Translate(direction * Time.deltaTime);
 
     }
 
